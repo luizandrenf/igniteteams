@@ -1,7 +1,8 @@
-import { Header } from "@components/Header";
-import { ButtonIcon } from "@components/ButtonIcon";
-import { Highlight } from "@components/Highlight";
 import { Input } from "@components/Input";
+import { Filter } from "@components/Filter";
+import { Header } from "@components/Header";
+import { Highlight } from "@components/Highlight";
+import { ButtonIcon } from "@components/ButtonIcon";
 
 import { Container, Form } from "./styles";
 
@@ -25,6 +26,10 @@ export function Players(){
           icon="add"
         />
       </Form>
+
+      <Filter 
+        title="Time A"
+      />
     </Container>
   );
 }
